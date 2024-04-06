@@ -1,12 +1,6 @@
-# to run this code:
-#   - activate venv environment by running this command in the terminal:
-#       ./venv/Scripts/Activate.ps1
-#   - just to check if the BeautifulSoup is correctly installed:
-#       python -m pip list
-#   - run the code:
-#       python .\urllinks_sample.py
-#   - deactivate the venv environment by running this command in the terminal:
-#       deactivate
+# check modules installed: python -m pip list
+# install beautifulsoup4 if needed: python -m pip install beautifulsoup4
+# run the code: python .\urllinks_sample.py
 
 import urllib.request, urllib.parse, urllib.error
 from bs4 import BeautifulSoup
